@@ -1,0 +1,57 @@
+* A programming language is a way to give instructions to a computer.
+* Without programs, computers cannot do anything (mouse, internet, apps, games).
+* Computers do not understand human languages like English.
+* Computers understand only **binary**: `0` and `1` (off/on).
+
+**Why programming languages exist**
+
+* Writing only `0` and `1` is difficult for humans.
+* Programming languages act as a bridge between humans and machines.
+
+**Types of programming languages**
+
+* **Low-level languages**: Closer to machine language
+
+  * Example: Assembly
+* **High-level languages**: Closer to human language
+
+  * Examples: Python, JavaScript, Java
+
+**Source Code**
+
+* Code written by humans in languages like Python or JavaScript.
+* Saved in files (e.g., `.py`, `.js`).
+
+**Translator (Very Important)**
+
+* Source code must be converted into machine code.
+* This is done by another program called a **translator**.
+
+**Types of Translators**
+
+1. **Interpreter**
+
+   * Translates and executes code **line by line**
+   * Example: Python (mostly)
+2. **Compiler**
+
+   * Translates the **entire program at once**
+   * Produces a binary file
+   * Executes the whole program together
+
+**Key Difference**
+
+* Interpreter: line by line execution
+* Compiler: whole file converted and executed at once
+
+**Important Point**
+
+* You cannot write Python code anywhere and expect it to run.
+* You must install Python (the interpreter) on your computer.
+* The interpreter translates your Python code into machine-understandable code.
+
+**Conclusion**
+
+* Humans write readable code.
+* Interpreter or compiler translates it.
+* Machine executes it.

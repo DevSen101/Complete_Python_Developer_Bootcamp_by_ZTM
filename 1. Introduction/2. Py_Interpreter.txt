@@ -1,0 +1,54 @@
+* A programming language gives instructions to a computer using a **translator**.
+* Translator can be an **interpreter** or a **compiler**.
+* Python uses an **interpreter**.
+
+**Important Idea**
+
+* Python (the language) is **not a program**.
+* Python is a **specification** (rules of how the language works).
+* A real program must follow these rules to run Python code.
+
+**Why we download Python**
+
+* To run Python code, we need a **translator program**.
+* This translator reads our Python source code and runs it on the machine.
+
+**Python Implementation**
+
+* When people say “Python”, they usually mean **CPython**.
+* **CPython**:
+
+  * Written in the **C language**
+  * Official and most commonly used Python interpreter
+  * Downloads from python.org give you CPython
+
+**Other Python Implementations**
+
+* **Jython** – written in Java
+* **PyPy** – written in Python
+* **IronPython** – built for .NET
+* All follow the same Python rules but are built differently.
+
+**What happens when Python runs**
+
+1. You write Python code (source code)
+2. CPython interpreter reads it line by line
+3. Code is converted into **bytecode**
+4. Bytecode runs on the **Python Virtual Machine (PVM)**
+5. Output appears on your computer
+
+**Key Points**
+
+* Bytecode is closer to machine language
+* Conversion happens automatically (you don’t see it)
+* This process runs on computers, laptops, and phones
+
+**Interview Note**
+
+* You are rarely asked this in interviews
+* This knowledge is for **understanding**, not memorization
+
+**Conclusion**
+
+* Python code → Interpreter → Bytecode → Virtual Machine → Output
+* Downloading Python = downloading the interpreter + virtual machine
