@@ -1,4 +1,5 @@
-# Python Developer Journey 🐍
+# Python Developer Journey  <img width="48" height="48" alt="image" src="https://github.com/user-attachments/assets/3abaaa68-6ec7-45a9-bfe8-1d01dfbbf275" />
+
 
 This repository documents my journey of learning **Python from fundamentals to advanced levels** through a structured, project-based approach.  
 It includes practice code, notes, experiments, and real-world projects built while learning Python.
