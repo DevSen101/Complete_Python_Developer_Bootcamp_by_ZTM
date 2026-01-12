@@ -31,3 +31,10 @@ for item in user.values():
 
 for key, value in user.items():
     print(f'key: {key}, value: {value}')
+
+
+
+
+
+
+    
