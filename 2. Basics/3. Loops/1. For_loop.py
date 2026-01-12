@@ -13,6 +13,7 @@
 
 user = {"name": "Dev", "age": 21, "can_swim": False}
 
+# by default give key
 for item in user:
     print(item)
 
