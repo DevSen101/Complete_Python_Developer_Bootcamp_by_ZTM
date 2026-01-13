@@ -1,0 +1,36 @@
+**Python OOP Quick Notes**  
+
+Everything in Python = **object** [class keyword everywhere!]  
+
+**What’s an Object?**  
+- Has **attributes** (data/properties) → `obj.color`  
+- Has **methods** (actions) → `obj.fly()`  
+- Ex: `type(5)` → `<class 'int'>`[1]
+
+**OOP = Paradigm** (way to think/structure code)  
+Why? Big codebases (Amazon drone → millions lines) get messy w/o it.  
+Break into **real-world pieces**:  
+-  Propellers obj  
+-  Camera obj  
+-  Claw obj  
+-  Signal obj  
+→ Team works separate → Reuse (drone → tank robot!)  
+
+**Class vs Object**  
+```
+class BigObject:     ← BLUEPRINT (define once)
+    pass
+
+obj1 = BigObject()   ← INSTANCE (object from blueprint)
+obj2 = BigObject()
+```
+- `type(obj1)` → `<class 'BigObject'>`  
+- Class stored in memory → Reuse! (DRY principle)  
+
+**Naming**  
+- Classes: **CamelCase** (BigObject)  
+- Not snake_case!  
+
+**Real Example**  
+Procedural: line1 → line2 → chaos  
+OOP: Model **Car** obj → `car.color`, `car.drive()`  
