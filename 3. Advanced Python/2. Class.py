@@ -15,23 +15,25 @@
 
 
 # ------------------------------
+# default value to method
 
 
 class PlayerCharacter:
-    membership = True
+    membership = True  # class attributes shared by all instances
 
-    def __init__(self, name, age):
+    def __init__(self, name="Dhoni", age=20):
         if PlayerCharacter.membership:
-            self.name = name  # attributes
-            self.age = age  # attributes
+            self.name = name  # Instance attributes - unique to each obj
+            self.age = age  # Instance attributes
 
     def shout(self):
-        print(f'My name is {self.name}')        
+        print(f"My name is {self.name}")
 
 
 player1 = PlayerCharacter("Virat", 22)
-player2 = PlayerCharacter("Rohit", 23)
+player2 = PlayerCharacter("Rohit", 23) #pass arguments
+player3 = PlayerCharacter()   #uses default values
 
 print(player1.age)
 print(player2.name)
-print(player1.shout())
+print(player3.shout())  # we can also give default value
