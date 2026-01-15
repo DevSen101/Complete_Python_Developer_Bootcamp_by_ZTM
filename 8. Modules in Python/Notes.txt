@@ -1,0 +1,5 @@
+__name__ == "__main__" is a Python idiom used to check if a module is being run directly as the main script or imported as a module. The special variable __name__ is automatically set to "__main__" when a Python file is executed directly, but to the module's name otherwise.
+​
+
+How It Works
+When you run python my_script.py, Python assigns "__main__" to __name__, so code inside if __name__ == "__main__": executes, such as running tests or the main program logic. If another script imports my_script.py, __name__ becomes "my_script", skipping the if block to avoid unwanted side effects like printing output or running tests during import
