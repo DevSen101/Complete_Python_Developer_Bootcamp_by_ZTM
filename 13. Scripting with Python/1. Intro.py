@@ -1,0 +1,1 @@
+# scripting stands for automation. we will write python script for automation.
