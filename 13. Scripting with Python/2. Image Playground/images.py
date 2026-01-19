@@ -11,3 +11,6 @@ image = Image.open('.\pokedex\pikachu.jpg')
 # ---------------------
 filtered_image = image.filter(ImageFilter.BLUR)
 filtered_image.save('blur.png', 'png')
+filtered_image.show()
+
+# thumbnail method
