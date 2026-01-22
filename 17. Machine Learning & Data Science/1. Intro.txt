@@ -23,3 +23,17 @@ Types of Machine Learning
 (2) Unsupervised ML- predict according to the unlabeled data Ex (1) csv files but dont have categories. (2) clustering and Association Rule Learning are there.
 
 (3) Reinforcement - train model using real time learning, skill acquisition
+
+------------------------------
+
+Machine learning workflow
+#1- Import the data.
+#2- Clean the data.
+#3- Split data. Training data/Test data.
+#4- Create Model.
+#5- Check the output.
+#6- Improve.
+
+-----------------------------
+start with jupyter notebook
+http://localhost:8888/lab/tree/movie.ipynb
