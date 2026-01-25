@@ -29,11 +29,11 @@ Types of Machine Learning
 Machine learning workflow
 #1- Import the data.
 #2- Clean the data.
-#3- Split data. Training data/Test data.
+#3- Split data ->  Training data set / Test data set.
 #4- Create Model.
 #5- Check the output.
 #6- Improve.
 
 -----------------------------
 start with jupyter notebook
-http://localhost:8888/lab/tree/movie.ipynb
+
